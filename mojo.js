@@ -22,6 +22,17 @@ obj= {
         "original_purchase_date" : "2019-10-31T02:51:33Z",
         "purchase_date" : "2019-10-31T02:51:32Z",
         "store" : "app_store"
+      },
+      "VSCOANNUAL" : {
+        "is_sandbox" : false,
+        "period_type" : "normal",
+        "billing_issues_detected_at" : null,
+        "unsubscribe_detected_at" : null,
+        "expires_date" : "2090-07-16T12:15:53Z",
+        "grace_period_expires_date" : null,
+        "original_purchase_date" : "2019-07-02T12:15:54Z",
+        "purchase_date" : "2019-07-02T12:15:53Z",
+        "store" : "app_store"
       }
     },
     "entitlements" : {
@@ -29,6 +40,12 @@ obj= {
         "expires_date" : "2099-12-01T03:51:32Z",
         "product_identifier" : "revenuecat.pro.yearly",
         "purchase_date" : "2019-10-31T02:51:32Z"
+      },
+      "membership" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2020-11-05T07:03:11Z",
+        "product_identifier" : "VSCOANNUAL",
+        "expires_date" : "2090-12-05T07:03:11Z"
       }
     },
     "original_purchase_date" : null,
