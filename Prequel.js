@@ -15,6 +15,6 @@ headers = {
 }
 
 hex = "0a230a0f36303030303132373833373439313210011a0608a8cfe5a506220608a7e6918f07"
-body = Buffer.from(hex, 'hex');
+body = Uint8Array.from(hex.match(/.{1,2}/g).map((byte) => parseInt(byte, 16)))
 
 $done({headers, body});
